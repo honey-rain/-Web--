@@ -1,0 +1,17 @@
+body{
+    background-image: url("backgr.jpg");
+    color:rgb(47, 5, 59);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+}
+#Submit{
+    font-size: 30px;
+}
+input{
+    color: rgb(160, 51, 118);
+    background-color: rgb(247, 198, 236);
+    border-color:white ;
+}

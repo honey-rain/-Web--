@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Create your own questionary!</h2>
+    <p>Enter your details below:</p>
+    <form>
+        <label for="Name">Name</label> <br>
+        <input placeholder="Name" id="Name" type="text" required>
+        <br> <br>
+        <label for="Surname">Surname</label> <br>
+        <input placeholder="Surname" id="Surname" type="text">
+        <br> <br>
+        <label for="Gmail">Email</label> <br>
+        <input placeholder="Email" id="Gmail" type="email" required>
+        <br> <br>
+        <label for="date">Date of birth</label> <br>
+        <input id="date" type="date" required>
+        <br> <br>
+        <label for="Password">Password</label> <br>
+        <input placeholder="Password" id="Password" type="password" required>
+        <br> <br>
+
+        <label for="sex-m">Male</label>
+        <input name="sex" id="sex-m" type="radio">
+        <label for="sex-f">Female</label>
+        <input name="sex" id="sex-f" type="radio">
+        <label for="sex-n">Do not specify </label>
+        <input name="sex" id="sex-n" type="radio">
+        <br><br>
+        <input type="range">
+        <br><br>
+        <label for="counties">Choose a your country:</label>
+            <select name="counties" id="counties" multiple>
+            <option value="Ukraine">Ukraine</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="China">China</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Poland">Poland</option>
+        </select> 
+        <br> <br>
+        <input id="Submit" type="submit" value="Submit">
+        <br> <br>
+        <p> Write something about you:</p> <br>
+        <textarea name="" id="" cols="100" rows="10"></textarea>
+        <br><br>
+    </form>
+</body>
